@@ -1,0 +1,18 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "string-quotes": "double",
+    "linebreaks": "unix",
+    "max-line-length": 120,
+    "no-empty-first-line": true,
+    "function-url-quotes": "never",
+    "max-nesting-depth": 4,
+    "color-named": "never",
+    "shorthand-property-no-redundant-values": true,
+    "selector-max-combinators": 6,
+    "font-family-name-quotes": "always-where-required",
+    "font-weight-notation": ["numeric", { "ignore": ["relative"] }],
+    "number-leading-zero": "never",
+    "selector-attribute-quotes": "always"
+  }
+}

@@ -1,0 +1,25 @@
+// Visual Studio Code 配置
+// 可直接用于项目中, 用于保证一致性, 也可以自己参照配置
+{
+  "editor.tabSize": 2,
+
+  // 如果不需要自动保存可以关闭
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+
+  // ESlint
+  // 如果不需要自动格式可以关闭
+  "eslint.autoFixOnSave": true,
+
+  // stylelint
+  // 关闭编辑器默认配置
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+
+  // prettier
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+}
